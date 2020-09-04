@@ -1,8 +1,11 @@
-package encapsulation;
+package lesson4.encapsulation;
 
 
 /**
  * This class was written just to show for beginners about encapsulation.
+ * In this example was encapsulated in the Number class the responsability of
+ * determinate if a number is an even or odd number, based on value.
+ * 
  * @author kenyo
  *
  */
