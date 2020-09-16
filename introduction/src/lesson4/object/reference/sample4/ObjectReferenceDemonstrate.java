@@ -1,4 +1,4 @@
-package lesson2.objectreference;
+package lesson4.object.reference.sample4;
 
 
 /**

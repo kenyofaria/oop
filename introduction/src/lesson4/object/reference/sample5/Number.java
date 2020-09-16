@@ -1,4 +1,4 @@
-package lesson4.encapsulation;
+package lesson4.object.reference.sample5;
 
 
 /**

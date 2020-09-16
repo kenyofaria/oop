@@ -1,4 +1,4 @@
-package lesson3.wrappertypes;
+package lesson2.wrappertypes;
 
 /**
  * This example is about existing wrapper types in java. 
