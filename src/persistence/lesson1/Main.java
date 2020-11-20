@@ -1,7 +1,7 @@
 package persistence.lesson1;
 
-import poo2.dao.EmpresaDAO;
-import poo2.entidade.Empresa;
+import persistence.lesson1.dao.EmpresaDAO;
+import persistence.lesson1.entidade.Empresa;
 
 public class Main {
 

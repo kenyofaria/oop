@@ -4,8 +4,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-import poo2.dao.BancoDeDados;
-import poo2.entidade.Empresa;
+import persistence.lesson1.entidade.Empresa;
+
 
 //DAO - Data Access Object
 public class EmpresaDAO {
