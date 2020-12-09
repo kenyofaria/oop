@@ -1,4 +1,4 @@
-package persistence.lesson1.dao;
+package persistence.lesson2.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
