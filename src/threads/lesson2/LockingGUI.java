@@ -1,4 +1,4 @@
-package threds.lesson2.solution;
+package threads.lesson2;
 
 public class LockingGUI {
 

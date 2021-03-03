@@ -1,4 +1,4 @@
-package threds.lesson2.solution.refactory;
+package threads.lesson2.solution.refactory;
 
 import javax.swing.JLabel;
 

@@ -1,4 +1,4 @@
-package threds.lesson3.solution;
+package threads.lesson3;
 
 public class Main {
 

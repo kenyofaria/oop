@@ -1,4 +1,4 @@
-package threds.lesson3.solution;
+package threads.lesson3.solution;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

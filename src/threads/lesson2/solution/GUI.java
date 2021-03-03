@@ -1,4 +1,4 @@
-package threds.lesson2.solution.refactory;
+package threads.lesson2.solution;
 
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -33,9 +33,20 @@ public class GUI extends JFrame{
 		this.add(this.label);
 		this.add(button2);
 		this.button1.addActionListener(new ActionListener() {
+			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-					Thread t = new Thread(new Task(label),"oop II task");
+				
+					Runnable r = new Runnable() {
+						@Override
+						public void run() {
+							for(long i=0; i<=1000000; i++) {
+								System.out.println(Thread.currentThread().getName() + " executing task " + i);
+							}
+							label.setText("Process terminated");
+						}
+					};
+					Thread t = new Thread(r,"task");
 					t.start();
 			}
 		});

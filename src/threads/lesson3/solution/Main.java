@@ -1,6 +1,6 @@
-package threds.lesson2;
+package threads.lesson3.solution;
 
-public class LockingGUI {
+public class Main {
 
 	
 	public static void main(String[] args) {

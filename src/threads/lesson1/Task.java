@@ -1,4 +1,4 @@
-package threds.lesson1;
+package threads.lesson1;
 
 public class Task implements Runnable {
 
